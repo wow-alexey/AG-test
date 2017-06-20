@@ -1,0 +1,18 @@
+<svg width="40" height="40" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>arrow</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2367 -93)">
+<g id="arrow">
+<g id="Ellipse 3">
+<use xlink:href="#path0_fill" transform="matrix(-1 8.76251e-08 -8.72209e-08 -1 2407 133)" fill="#737271" fill-opacity="0.3"/>
+</g>
+<g id="Vector 2 (Stroke)">
+<use xlink:href="#path1_fill" transform="matrix(1.30932e-07 1 -1 1.31336e-07 2389.64 106.269)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 40 20C 40 31.0457 31.0457 40 20 40C 8.9543 40 0 31.0457 0 20C 0 8.95431 8.9543 0 20 0C 31.0457 0 40 8.95431 40 20Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 5.95272 5.76423L 0.627447 1.38222C 0.302404 1.11475 0.302405 0.617069 0.627448 0.349601C 0.874273 0.146495 1.23033 0.146495 1.47716 0.349601L 6.47887 4.46537L 11.4806 0.349601C 11.7274 0.146495 12.0835 0.146495 12.3303 0.349601C 12.6553 0.617069 12.6553 1.11475 12.3303 1.38222L 7.00502 5.76423L 6.47887 6.19718L 5.95272 5.76423Z"/>
+</defs>
+</svg>
