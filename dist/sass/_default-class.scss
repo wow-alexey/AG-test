@@ -1,0 +1,34 @@
+@import "custom";
+@import "fonts";
+
+body {
+  margin: 0 auto;
+  background: $generalOrange;
+  font-family: 'PT Sans', sans-serif;
+  h4{
+    margin: 0 auto;
+  }
+  h5{
+    margin: 0 auto;
+  }
+  h6{
+    margin: 0 auto;
+  }
+  p{
+    margin: 0 auto;
+  }
+  div{
+    display: inline-block;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+
+}
