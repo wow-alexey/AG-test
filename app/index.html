@@ -52,6 +52,9 @@
                         <div class="cross">
                             <div class="horizontal"></div>
                             <div class="vertical"></div>
+
+                            <!--*****ВТОРОЙ ВАРИАНТ КРЕСТА******-->
+                            <!--<span class="cross-icon"></span>-->
                         </div>
                     </a>
                 </div>
@@ -78,9 +81,19 @@
         </div>
         <div class="header-search">
             <input type="text" placeholder="Поиск объявлений...">
-            <a href="#">Все категории
+            <!--<a href="#">Все категории-->
+            <!--<i class="fa fa-angle-down" aria-hidden="true"></i>-->
+            <!--</a>-->
+            <div class="select">
                 <i class="fa fa-angle-down" aria-hidden="true"></i>
-            </a>
+                <select name="all-categories" class="all-categories">
+                    <option selected disabled>Все категории</option>
+                    <option value="Категория 1">Категория 1</option>
+                    <option value="Категория 2">Категория 2</option>
+                    <option value="Категория 3">Категория 3</option>
+                    <option value="Категория 4">Категория 4</option>
+                </select>
+            </div>
             <button>
                 <svg></svg>
             </button>
@@ -163,9 +176,15 @@
                                     </div>
                                 </div>
                                 <form>
-                                    <input type="email" class="email" placeholder="Ваш e-mail" required>
-                                    <textarea class="text" placeholder="Текст Вашего сообщения" required></textarea>
-                                    <input type="submit" class="btn">
+                                    <div class="col-md-10">
+                                        <input type="email" class="email" placeholder="Ваш e-mail" required>
+                                        <textarea class="text" placeholder="Текст Вашего сообщения" required></textarea>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <input type="submit" class="btn">
+                                    </div>
+
+
                                 </form>
                             </div>
                         </div>
@@ -254,52 +273,53 @@
                         <div class="col-lg-3">
                             <a href="#">
                                 <figure>
-                                <img src="img/somePhoto2.jpg" alt="somePhoto2">
-                                <figcaption>
-                                    <div>
-                                        <p>Оп микрофибра 40см с ушками</p>
-                                    </div>
-                                    <div>
-                                        <span>98 грн.</span>
-                                    </div>
-                                </figcaption>
-                            </figure>
+                                    <img src="img/somePhoto2.jpg" alt="somePhoto2">
+                                    <figcaption>
+                                        <div>
+                                            <p>Оп микрофибра 40см с ушками</p>
+                                        </div>
+                                        <div>
+                                            <span>98 грн.</span>
+                                        </div>
+                                    </figcaption>
+                                </figure>
                             </a>
                         </div>
                         <div class="col-lg-3">
                             <a href="#">
                                 <figure>
-                                <img src="img/somePhoto3.jpg" alt="somePhoto3">
-                                <figcaption>
-                                    <div>
-                                        <p>Пластиковые емкости, бочки, цистерны</p>
-                                    </div>
-                                    <div>
-                                        <span>1000 грн.</span>
-                                    </div>
-                                </figcaption>
-                            </figure>
+                                    <img src="img/somePhoto3.jpg" alt="somePhoto3">
+                                    <figcaption>
+                                        <div>
+                                            <p>Пластиковые емкости, бочки, цистерны</p>
+                                        </div>
+                                        <div>
+                                            <span>1000 грн.</span>
+                                        </div>
+                                    </figcaption>
+                                </figure>
                             </a>
                         </div>
                         <div class="col-lg-3">
                             <a href="#">
                                 <figure>
-                                <img src="img/somePhoto2.jpg" alt="somePhoto2">
-                                <figcaption>
-                                    <div>
-                                        <p>Оп микрофибра 40см с ушками</p>
-                                    </div>
-                                    <div>
-                                        <span>98 грн.</span>
-                                    </div>
+                                    <img src="img/somePhoto2.jpg" alt="somePhoto2">
+                                    <figcaption>
+                                        <div>
+                                            <p>Оп микрофибра 40см с ушками</p>
+                                        </div>
+                                        <div>
+                                            <span>98 грн.</span>
+                                        </div>
 
-                                </figcaption>
-                            </figure>
+                                    </figcaption>
+                                </figure>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </main>
     <!--MAIN END-->
 
@@ -308,7 +328,7 @@
         <div class="footer-add">
             <span>Узнавайте первыми о наших новинках!</span>
             <div class="sign-form">
-                <form action="">
+                <form>
                     <input type="email" class="footer-email" placeholder="Ваша почта" required>
                     <input type="submit" class="footer-btn" value="подписаться">
                 </form>

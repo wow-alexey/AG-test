@@ -13,3 +13,5 @@
 [0426/213528.803:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\settings.dat: Отказано в доступе. (0x5)
 [0426/213528.803:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
 [0426/213528.819:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\settings.dat: Отказано в доступе. (0x5)
+[0621/150228.946:ERROR:main_dll_loader_win.cc(136)] Failed to load Chrome DLL from C:\Program Files (x86)\Dayglad\Application\58.0.3029.81\chrome.dll: Не найден указанный модуль. (0x7E)
+[0621/150253.603:ERROR:main_dll_loader_win.cc(136)] Failed to load Chrome DLL from C:\Program Files (x86)\Dayglad\Application\58.0.3029.81\chrome.dll: Не найден указанный модуль. (0x7E)

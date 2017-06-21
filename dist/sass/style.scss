@@ -146,6 +146,24 @@
                 border: 1px solid #FFFFFF;
               }
             }
+            //*****ВТОРОЙ ВАРИАНТ КРЕСТА******
+            //.cross-icon{
+            //  position: relative;
+            //  &::before{
+            //    position: absolute;
+            //    content: '|';
+            //    top: 1;
+            //    left: 9px;
+            //    font-size: 12px;
+            //  }
+            //  &::after{
+            //    position: absolute;
+            //    content: '|';
+            //    transform: rotate(90deg);
+            //    left: 9px;
+            //    font-size: 12px;
+            //  }
+            //}
           }
         }
       }
@@ -231,22 +249,46 @@
           color: #CCCAC8;
         }
       }
-      a {
-        font-family: 'PT Sans', sans-serif;
-        font-size: 14px;
-        line-height: 100%;
-        color: #5F5E5D;
-        padding: 14px 16px;
-        border-left: 1px solid #E9ECF0;
-        background: #fff;
-        box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.05);
-        margin-left: -8px;
+      //a {
+      //  font-family: 'PT Sans', sans-serif;
+      //  font-size: 14px;
+      //  line-height: 100%;
+      //  color: #5F5E5D;
+      //  padding: 14px 16px;
+      //  border-left: 1px solid #E9ECF0;
+      //  background: #fff;
+      //  box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.05);
+      //  margin-left: -8px;
+      //}
+      .select{
+        position: relative;
+        i{
+          position: absolute;
+          right: 11px;
+          top: 16px;
+        }
+        .all-categories{
+          border:none;
+          outline: none;
+          font-size: 14px;
+          line-height: 100%;
+          color: #5F5E5D;
+          padding: 16px 23px;
+          border-left: 1px solid #E9ECF0;
+          background: #fff;
+          box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.05);
+          margin-left: -6px;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+        }
       }
+
       button {
+        margin-left:-4px;
         background: #5F5E5D;
         border-radius: 4px;
         vertical-align: bottom;
-        padding: 10.5px 24px;
+        padding: 9.5px 24px;
         outline: none;
         border: none;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
@@ -445,7 +487,12 @@
           }
           form {
             margin-top: 16px;
-            position: relative;
+            .col-md-10{
+              padding: 0;
+            }
+            .col-md-2{
+              padding: 0;
+            }
             input {
               background: #FFFFFF;
               border-radius: 4px;
@@ -476,14 +523,12 @@
                 min-width: 266px;
               }
               &.btn {
+                margin-top:91px;
                 background: #FF9900;
                 font-size: 18px;
                 line-height: 100%;
                 color: #F6F7FB;
                 padding: 12px 42px;
-                margin-left: 34px;
-                position: absolute;
-                bottom: 45px;
               }
             }
             .text {
@@ -708,7 +753,6 @@
         margin-top: 26px;
         .footer-email {
           background: rgba(170, 178, 189, 0.2);
-          //opacity: 0.50;
           border: 2px solid rgba(246, 247, 251, .5);
           border-radius: 6px 0 0 6px;
           box-sizing: border-box;
@@ -719,32 +763,46 @@
           font-size: 16px;
           line-height: 100%;
           color: #F6F7FB;
+          background: url("../img/footer-mail.svg") no-repeat;
+          background-position: 30px;
           &::-webkit-input-placeholder {
             font-size: 16px;
             color: #F6F7FB;
-            background: url("../img/footer-mail.svg") no-repeat;
             padding: 0 0 0 30px;
-
           }
           &::-moz-placeholder {
             font-size: 16px;
             color: #F6F7FB;
-            background: url("../img/footer-mail.svg") no-repeat;
             padding: 0 0 0 30px;
           }
           /* Firefox 19+ */
           &:-moz-placeholder {
             font-size: 16px;
             color: #F6F7FB;
-            background: url("../img/footer-mail.svg") no-repeat;
             padding: 0 0 0 30px;
           }
           /* Firefox 18- */
           &:-ms-input-placeholder {
             font-size: 16px;
-            color: #F6F7FB;
-            background: url("../img/footer-mail.svg") no-repeat;
+            color: #F6F7FB;            
             padding: 0 0 0 30px;
+          }
+          &:focus{
+            background: none;
+            &::-webkit-input-placeholder {
+              font-size: 0;
+            }
+            &::-moz-placeholder {
+              font-size: 0;
+            }
+            /* Firefox 19+ */
+            &:-moz-placeholder {
+              font-size: 0;
+            }
+            /* Firefox 18- */
+            &:-ms-input-placeholder {
+              font-size: 0;
+            }
           }
         }
         .footer-btn{
